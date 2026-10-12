@@ -1,0 +1,39 @@
+# Operating System Files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor & IDE configurations
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment & local credentials
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+error_log
+
+# Uploaded runtime files (preserve folder structure & access rules)
+uploads/*
+!uploads/.htaccess
+!uploads/phong/
+!uploads/dichvu/
+uploads/phong/*
+!uploads/phong/.gitkeep
+uploads/dichvu/*
+!uploads/dichvu/.gitkeep
